@@ -1,7 +1,7 @@
 FILES=color/color.py color/__init__.py
 DOCS=LICENSE README.md setup.py
 
-dist:
+dist: ${FILES} ${DOCS}
 	python setup.py sdist bdist_wheel
 
 upload: dist
