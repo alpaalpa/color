@@ -18,6 +18,7 @@ dist/
 # Compiled Python bytecode
 build/
 dist/
+*/__pyche__/
 *.py[cod]
 *.egg-info/
 

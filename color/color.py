@@ -90,6 +90,9 @@ class Color(object):
         '''cyan color'''
         return Color.CYAN + text + Color.ENDC
 
+class Colour(Color):
+    pass
+
 def main():
     '''main function'''
     pass
