@@ -23,6 +23,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
 '''
 
+
 class Color(object):
     '''A whole bunch of static methods to color texting using ANSI escape sequence
     '''
@@ -41,8 +42,6 @@ class Color(object):
     ENDC = '\033[0m'
 
     def __init__(self):
-        '''nothing to init'''
-        #super(Color, self).__init__()
         pass
 
     @staticmethod
@@ -90,12 +89,15 @@ class Color(object):
         '''cyan color'''
         return Color.CYAN + text + Color.ENDC
 
+
 class Colour(Color):
     pass
+
 
 def main():
     '''main function'''
     pass
+
 
 if __name__ == '__main__':
     main()

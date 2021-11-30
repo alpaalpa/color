@@ -6,6 +6,10 @@
 # Python venv directory
 venv*/
 
+# Poetry
+# As this is a library, do not check in poetry.lock
+poetry.lock
+
 # Temporary files
 
 # Node artifact files
